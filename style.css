@@ -5,31 +5,26 @@
     opacity: 0.9;
 
 }
-/* TODO: Add a smooth slide transition */
+
 body{
     background-color: black;
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .top{
-    margin-top: 69px;
-    margin-bottom: 10px;
     border-bottom: 1px solid seashell;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-image > img{
-    height: 50px;
-    padding-left: 10px;
+    height: 70px;
     float: left;
-    border-bottom: 1px solid seashell;
-
+    padding: 10px 0px 10px 10px;
 }
 
 .header-links > a{
@@ -37,36 +32,30 @@ body{
     padding: 10px;
     color: seashell;
     cursor: pointer;
-    text-decoration: underline;
-    border-bottom: 1px solid seashell;
-    
+    text-decoration: underline;    
 }
 
 
 .tea-cozy-mission{
-
-    margin-top: 69px;
+    display: flex;
+    flex-direction: column;
     background-image: url(./img/img-mission-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 700px;
-    width: 1200px;
+    max-width: 90%;
+    margin-left: 4%;
 
 }
 
-.mission-h2, .mission-h4{
-    margin-top: 350px;
+.mission-h2{
+    margin-top: 300px;
     background-color: black;
 }
 
 .featured-tea {
-    margin-left: 5%;
     margin-top: 70px;
-    flex-flow: row wrap;
-    align-items: center;
-    gap: 10px;
-    width: 1000px;
 }
 
 .tea-image > img{
@@ -96,6 +85,8 @@ body{
     background-position: center;
     height: 500px;
     opacity: 0.7;
+    max-width: 90%;
+    margin-left: 4%;
 }
 
 .locations > h2{
